@@ -3,7 +3,7 @@ const request = window.indexedDB.open("Budget", 1);
 
 request.onupgradeneeded = event => {
     cache = event.target.result;
-    const storePend = db.createObjectStore("pending", {autoIncrement :true});
+    const storePend = cache.createObjectStore("pending", {autoIncrement :true});
     storePend.createIndex("statusIndex", "status");
 };
 
@@ -11,7 +11,7 @@ request.onsuccess = event => {
     cache = event.target.result;
 
     if (navigator.onLine) {
-        checkdatabase();
+        checkDatabase();
     }
 };
 
