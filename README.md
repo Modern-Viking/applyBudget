@@ -3,17 +3,17 @@
 This is a budget tracker app that works online and offline.
 
 ### link to the deployed website
-- www.template.com
+- https://apply-budget.herokuapp.com/
 
 ## Contents
 * Landing Page
-![LandingPage](public/assets/images/LandingPageImage.png)
+![LandingPage](https://github.com/Modern-Viking/applyBudget/blob/master/public/assets/images/screenshot.jpg?raw=true)
 
 ## Instructions
-How to use the REPO
+Insert name of transaction and amount and choose whether to add of subtract it from your amount
 
 ## Future Updates
-* Future Updates for REPO
+* no future updates at this time
 
 ## Contributors
 * https://github.com/Modern-Viking
